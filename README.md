@@ -29,13 +29,15 @@
 
 <div align="center">
   
-[![](https://img.shields.io/badge/Blog-%23FFA500.svg?&style=for-the-badge&logo=rss&logoColor=white)](https://blog.17lai.site)
+[![Blog](https://img.shields.io/badge/Blog-%23FFA500.svg?&style=for-the-badge&logo=rss&logoColor=white)](https://blog.17lai.site)
+[![RSS](https://img.shields.io/badge/RSS-orange.svg?&style=for-the-badge&logo=rss&logoColor=white)](https://cdn.jsdelivr.net/gh/appotry/hexo@latest/atom.xml)
+[![Github](https://img.shields.io/badge/-Github-%23EEEEEE?logo=Github&style=for-the-badge&logoColor=black)](https://github.com/appotry)
+[![Docker](https://img.shields.io/badge/-Docker-%232496ED?logo=Docker&style=for-the-badge&logoColor=black)](https://hub.docker.com/u/bloodstar)
 ![Linux](https://img.shields.io/badge/-Linux-%257A143?logo=Linux&style=for-the-badge&logoColor=black)
 ![Shell](https://img.shields.io/badge/-Shell-%233776AB?logo=Windows%20Terminal&style=for-the-badge&logoColor=white)
 ![C/C++](https://img.shields.io/badge/-C/C++-%23EEEEEE?logo=C&style=for-the-badge&logoColor=black)
 ![Kernel](https://img.shields.io/badge/-Kernel-%234FC08D?logo=linux&style=for-the-badge&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-%232496ED?logo=Docker&style=for-the-badge&logoColor=black)
-![IOT](https://img.shields.io/badge/-IOT-%232F2625?logo=IOTA&style=for-the-badge&logoColor=white)
+![AIOT](https://img.shields.io/badge/-AIOT-yellowgreen?logo=IOTA&style=for-the-badge&logoColor=black)
 
 </div>
 
@@ -66,4 +68,7 @@ Here are some ideas to get you started:
 - 🌱 My Skill | 我的技术: C/C++, Linux Device Driver, Linux System Program, Linux System architecture,  IOT, IPC/DVR/NVR, ETC
 - 📫 My blog | 个人博客: https://blog.17lai.site
 -->
+
+
+
 
