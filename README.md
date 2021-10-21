@@ -53,7 +53,9 @@
 <!--Trap--:)-->
 <a href="https://github.com/404"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
-> **如果这些项目，感觉对你有用，或者感觉有趣，给个Star呗！  反正Star又不花钱。**
+****
+
+<h2 align="center">如果这些项目，感觉对你有用，或者感觉有趣，给个Star呗！ 😄 反正Star又不花钱。</h2>
 
 <!--
 ### Hi there 👋
