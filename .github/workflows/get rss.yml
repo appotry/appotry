@@ -1,12 +1,12 @@
 name: Get recent rss post
 
 on:
-  push:
-    branches:
-      - main
-      - master
-  release:
-    types: [published]
+  # push:
+  #   branches:
+  #     - main
+  #     - master
+  # release:
+  #   types: [published]
   schedule:
     # * is a special character in YAML so you have to quote this string
     # UTC 17:00 -> CST (China) 1:00, see https://datetime360.com/cn/utc-cst-china-time/
