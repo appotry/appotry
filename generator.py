@@ -53,7 +53,7 @@ def loadPostsByRSS():
 
 
 # 常量定义
-POSTS_RSS_URL = 'https://blog.17lai.site/atom.xml'
+POSTS_RSS_URL = 'https://blog.17lai.site/rss.xml'
 
 TO_REPLACE_POSTS = '{{Recent Posts}}'
 TO_REPLACE_DATE = '{{Generated At}}'
