@@ -1,4 +1,8 @@
 # -*- coding: utf-8 -*-
+
+# author andycrusoe@gmail.com
+# 2022-05-02
+
 import re
 import json
 import pytz
@@ -41,7 +45,9 @@ class ReadRss:
         self.url = rss_url
         self.headers = headers
         try:
-            self.r = requests.get(rss_url, headers=self.headers)
+            response = requests.get(rss_url, headers=self.headers)
+            response.encoding = 'utf-8'
+            self.r = response
             self.status_code = self.r.status_code
         except Exception as e:
             print('Error fetching the URL: ', rss_url)
