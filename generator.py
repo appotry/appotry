@@ -83,7 +83,7 @@ TO_REPLACE_DATE = '{{Generated At}}'
 
 BLOG_URL_PREFIX = 'https://blog.17lai.site'
 
-RECENT_POST_LIMIT = 6
+RECENT_POST_LIMIT = 12
 
 # 时区定义
 tz = pytz.timezone('Asia/Shanghai')
