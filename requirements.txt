@@ -1,0 +1,4 @@
+DateTime==4.2
+pytz==2017.3
+requests==2.24.0
+rss-parser==0.2.3
