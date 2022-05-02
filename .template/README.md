@@ -57,9 +57,9 @@
 
 <h2 align="center">如果这些项目，感觉对你有用，或者感觉有趣，给个Star呗！ 😄 反正Star又不花钱。</h2>
 
-## Recent Posts:  -- Generated at {{Generated At}}
+## 最近博文:  -- 自动获取于 {{Generated At}}
 {{Recent Posts}}
-* [More...](https://blog.17lai.site/)
+* [更多文章...](https://blog.17lai.site/)
 
 
 <!--
