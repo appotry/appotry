@@ -3,7 +3,11 @@ import json
 import pytz
 import datetime
 import requests
-from rss_parser import Parser
+from bs4 import BeautifulSoup
+
+headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36'
+        }
 
 # 文档实体结构定义
 class Post:
@@ -28,29 +32,41 @@ class Post:
         t = re.findall(r'\d{2}:\d{2}:\d{2}',self.date)[0]
         dt = '%s %s' % (d,t)
         return datetime.datetime.strptime(dt,'%Y-%m-%d %H:%M:%S')
-
-def loadPosts():
-    response = requests.get(RECENT_POSTS_URL)
-    if response.status_code == 200:
-        json_data = json.loads(response.content)
-        for item in json_data:
-            yield Post(item['date'],item['path'],item['title'], BLOG_URL_PREFIX)
-    else:
-        return []
+      
+class ReadRss:
+ 
+    def __init__(self, rss_url, headers):
+ 
+        self.url = rss_url
+        self.headers = headers
+        try:
+            self.r = requests.get(rss_url, headers=self.headers)
+            self.status_code = self.r.status_code
+        except Exception as e:
+            print('Error fetching the URL: ', rss_url)
+            print(e)
+        try:    
+            self.soup = BeautifulSoup(self.r.text, 'lxml')
+        except Exception as e:
+            print('Could not parse the xml: ', self.url)
+            print(e)
+        self.articles = self.soup.findAll('item')
+        self.articles_dicts = [{'title':a.find('title').text,'link':a.link.next_sibling.replace('\n','').replace('\t',''),'description':a.find('description').text,'pubdate':a.find('pubdate').text} for a in self.articles]
+        self.urls = [d['link'] for d in self.articles_dicts if 'link' in d]
+        self.titles = [d['title'] for d in self.articles_dicts if 'title' in d]
+        self.descriptions = [d['description'] for d in self.articles_dicts if 'description' in d]
+        self.pub_dates = [d['pubdate'] for d in self.articles_dicts if 'pubdate' in d]
 
 def loadPostsByRSS():
-    response = requests.get(POSTS_RSS_URL)
-    if response.status_code == 200:
-        parser = Parser(xml =response.content, limit=RECENT_POST_LIMIT)
-        feed = parser.parse()
-        for item in feed.feed:
-            publish_date = datetime.datetime.strptime(item.publish_date, '%a, %d %b %Y %H:%M:%S +0000')
+    feed = ReadRss(POSTS_RSS_URL, headers)
+    # print(feed.urls)
+    if feed.status_code == 200:
+        for i in range(RECENT_POST_LIMIT):
+            publish_date = datetime.datetime.strptime(feed.pub_dates[i], '%a, %d %b %Y %H:%M:%S +0800')
             publish_date = datetime.datetime.strftime(publish_date,'%Y-%m-%d %H:%M:%S')
-            yield Post(publish_date,item.link,item.title, None)
+            yield Post(publish_date,feed.urls[i],feed.titles[i], None)
     else:
         return []
-
-
 
 # 常量定义
 POSTS_RSS_URL = 'https://blog.17lai.site/rss.xml'
@@ -59,10 +75,8 @@ TO_REPLACE_POSTS = '{{Recent Posts}}'
 TO_REPLACE_DATE = '{{Generated At}}'
 
 BLOG_URL_PREFIX = 'https://blog.17lai.site'
-RECENT_POSTS_URL = 'https://blog.17lai.site/content.json'
 
 RECENT_POST_LIMIT = 6
-
 
 # 时区定义
 tz = pytz.timezone('Asia/Shanghai')
@@ -75,14 +89,16 @@ def formatPost(item):
         item.getLink()
     )
 
-with open('./README.md', 'wt', encoding='utf-8') as fw:
-    with open('./.template/README.md', 'rt', encoding='utf-8') as fr:
-      posts = sorted(loadPostsByRSS(), key=lambda x:x.getDate(),reverse=True)
-      recent_posts = ''
-      if len(posts) > 0:
-         recent_posts = '\n'.join(list(map(lambda x: formatPost(x), posts[:RECENT_POST_LIMIT])))
-      content = fr.read().replace(TO_REPLACE_POSTS, recent_posts)
-      createdAt = datetime.datetime.now(tz)
-      createdAt = datetime.datetime.strftime(createdAt,'%Y-%m-%d %H:%M:%S')
-      content = content.replace(TO_REPLACE_DATE, createdAt)
-      fw.write(content)
+if __name__ == '__main__':
+    # print(feed.urls)
+    with open('./README.md', 'wt', encoding='utf-8') as fw:
+        with open('./.template/README.md', 'rt', encoding='utf-8') as fr:
+            posts = sorted(loadPostsByRSS(), key=lambda x:x.getDate(),reverse=True)
+            recent_posts = ''
+            if len(posts) > 0:
+                recent_posts = '\n'.join(list(map(lambda x: formatPost(x), posts[:RECENT_POST_LIMIT])))
+            content = fr.read().replace(TO_REPLACE_POSTS, recent_posts)
+            createdAt = datetime.datetime.now(tz)
+            createdAt = datetime.datetime.strftime(createdAt,'%Y-%m-%d %H:%M:%S')
+            content = content.replace(TO_REPLACE_DATE, createdAt)
+            fw.write(content)
