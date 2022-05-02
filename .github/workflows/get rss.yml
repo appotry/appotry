@@ -1,0 +1,43 @@
+name: Get recent rss post
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  release:
+    types: [published]
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    # UTC 17:00 -> CST (China) 1:00, see https://datetime360.com/cn/utc-cst-china-time/
+    - cron: '0 17 * * *'
+    # 每月最后一天10:15分运行
+    # - cron: '0 15 10 L * ?'
+    # 每月第一天0:0分运行
+    # - cron: '0 0 1 * *'
+  workflow_dispatch:
+
+jobs:
+  build_recent_post:
+    name: Build Recent Posts
+    runs-on: ubuntu-latest
+    steps:
+    - name: Generate README.md for github.com
+      env:
+       GH_REPO: github.com/appotry/appotry.git
+      run: |
+       sudo mkdir -p /home/runner/work/artifacts/
+       cd /home/runner/work/artifacts/
+       sudo git clone https://github.com/appotry/appotry.git 
+       cd /home/runner/work/artifacts/appotry
+       sudo git config user.name "appotry"
+       sudo git config user.email "andycrusoe@gmail.com"
+       sudo rm -f README.md
+       sudo python -m pip install pip -U
+       sudo python -m pip config set global.index-url http://mirrors.aliyun.com/pypi/simple/
+       sudo python -m pip config set install.trusted-host mirrors.aliyun.com
+       sudo python -m pip install -r requirements.txt 
+       sudo python generator.py
+       sudo git add -f README.md
+       sudo git commit -m "Update README.md by Github Action"
+       sudo git push --force --quiet "https://${{ secrets.CI_TOKEN }}@$GH_REPO" master:master
