@@ -3,6 +3,5 @@ pytz==2017.3
 requests==2.24.0
 rss-parser==0.2.3
 Pillow==5.0.0
-lxml==4.2.4
 setuptools
 pyyaml
