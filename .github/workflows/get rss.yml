@@ -35,7 +35,7 @@ jobs:
       with:
         python-version: '3.7'
         architecture: 'x64'
-        
+
     - name: Setup Dependency
       run: |
        npm install js-yaml --save
@@ -44,6 +44,7 @@ jobs:
        python -m pip config set global.index-url http://mirrors.aliyun.com/pypi/simple/
        python -m pip config set install.trusted-host mirrors.aliyun.com
        python -m pip install -r requirements.txt 
+       
     - name: Generate README.md for github.com
       env:
        GH_REPO: github.com/appotry/appotry.git
