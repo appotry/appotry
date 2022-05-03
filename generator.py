@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 
 # author andycrusoe@gmail.com
+# https://github.com/appotry/
+# https://blog.17lai.site
 # 2022-05-02
 
 import re
