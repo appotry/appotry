@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 
 # author andycrusoe@gmail.com
-# https://github.com/appotry/
-# https://blog.17lai.site
+# Github https://github.com/appotry/
+# Blog https://blog.17lai.site
+# 参考 https://blog.yuanpei.me/posts/1329254441/
 # 2022-05-02
 
 import re
