@@ -27,8 +27,7 @@
     <img src="https://cultofthepartyparrot.com/parrots/hd/mustacheparrot.gif" width="25" height="25"/>
 </div>
 
-<div align="center">
-  
+<div align="center" style="display: inline">
 [![Blog](https://img.shields.io/badge/Blog-%23FFA500.svg?&style=for-the-badge&logo=rss&logoColor=white)](https://blog.17lai.site)
 [![RSS](https://img.shields.io/badge/RSS-orange.svg?&style=for-the-badge&logo=rss&logoColor=white)](https://cdn.jsdelivr.net/gh/appotry/hexo@latest/atom.xml)
 [![Github](https://img.shields.io/badge/-Github-%23EEEEEE?logo=Github&style=for-the-badge&logoColor=black)](https://github.com/appotry)
@@ -38,7 +37,6 @@
 ![C/C++](https://img.shields.io/badge/-C/C++-%23EEEEEE?logo=C&style=for-the-badge&logoColor=black)
 ![Kernel](https://img.shields.io/badge/-Kernel-%234FC08D?logo=linux&style=for-the-badge&logoColor=white)
 ![AIOT](https://img.shields.io/badge/-AIOT-yellowgreen?logo=IOTA&style=for-the-badge&logoColor=black)
-
 </div>
 
 <!--Trap--:)-->
