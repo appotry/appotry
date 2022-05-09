@@ -49,9 +49,9 @@
 
 <h2 align="center">如果这些项目，感觉对你有用，或者感觉有趣，给个Star呗！ 😄 反正Star又不花钱。</h2>
 
-## 最近博文:  -- 自动获取于 2022-05-09 14:22:25
+## 最近博文:  -- 自动获取于 2022-05-09 21:22:32
 * 2022-05-09 - [自建全套开源Devops开发系统](https://blog.17lai.site/posts/ab63eb8f/            )
-* 2022-05-09 - [音视频图书和音乐自动化管理框架图解](https://blog.17lai.site/posts/db7bf49b/            )
+* 2022-05-09 - [视频图书和音乐完全自动化管理框架图解](https://blog.17lai.site/posts/db7bf49b/            )
 * 2022-05-02 - [如何建立自己的私人图书馆](https://blog.17lai.site/posts/dc1c8194/            )
 * 2022-04-21 - [QNAP添加man pages](https://blog.17lai.site/posts/ba4ef326/            )
 * 2022-04-19 - [Git介绍以及分支模型图解](https://blog.17lai.site/posts/d32a07a7/            )
