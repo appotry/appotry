@@ -34,22 +34,22 @@
 </div>
 
 <!--Trap--:)-->
-<a href="https://github.com/404"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
+<a href="https://github.com/404"><img src="https://raw.githubusercontent.com/appotry/appotry/main/media/line.webp"></a>
 
-<img align="right" src="https://ghstats.17lai.site/api?username=appotry&show_icons=true&icon_color=0366d6&text_color=24292e&bg_color=ffffff&hide_title=true" />
+<img align="right" src="https://github-readme-stats-two-lilac.vercel.app/api?username=appotry&show_icons=true&icon_color=0366d6&text_color=24292e&bg_color=ffffff&hide_title=true" />
 
 🤗 &nbsp;你好~ 我是 [**appotry**](https://blog.17lai.site)，linux architectures. Linux System Programer, Embeded Linux engineer.
 
 🌈 &nbsp;My Skill | 我的技术: C/C++, Linux Device Driver, Linux System Program, Linux System architecture,  IOT, IPC/DVR/NVR, ETC
 
 <!--Trap--:)-->
-<a href="https://github.com/404"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
+<a href="https://github.com/404"><img src="https://raw.githubusercontent.com/appotry/appotry/main/media/line.webp"></a>
 
 ****
 
 <h2 align="center">如果这些项目，感觉对你有用，或者感觉有趣，给个Star呗！ 😄 反正Star又不花钱。</h2>
 
-## 最近博文:  -- 自动获取于 2022-05-19 17:49:11
+## 最近博文:  -- 自动获取于 2022-05-19 18:23:41
 * 2022-05-09 - [自建全套开源Devops开发系统](https://blog.17lai.site/posts/ab63eb8f/            )
 * 2022-05-09 - [视频图书和音乐完全自动化管理框架图解](https://blog.17lai.site/posts/db7bf49b/            )
 * 2022-05-02 - [如何建立自己的私人图书馆](https://blog.17lai.site/posts/dc1c8194/            )
