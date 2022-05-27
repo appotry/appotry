@@ -1,30 +1,30 @@
 <h1 align="center">:cn: :octopus: appotry 👋</h1>
 
 <div align="center">
-    <img src="https://cultofthepartyparrot.com/parrots/hd/githubparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/flags/hd/iranparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/asyncparrot.gif" width="36" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/exceptionallyfastparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/60fpsparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/jumpingparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/opensourceparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/dealwithitnowparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/hypnoparrotlight.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/databaseparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/fixparrot.gif" width="36" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/laptop_parrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/spinningparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/levitationparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/meldparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/slomoparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/moonwalkingparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/stableparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/scienceparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/pirateparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/footballparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/illuminatiparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/hypnoparrotdark.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/mustacheparrot.gif" width="25" height="25"/>
+    <img src="https://cdn.17lai.site/media/pic/parrots/githubparrot.webp" width="25" height="25"/>
+    <img src="https://cdn.17lai.site/media/pic/parrots/iranparrot.webp" width="25" height="25"/>
+    <img src="https://cdn.17lai.site/media/pic/parrots/asyncparrot.webp" width="36" height="25"/>
+    <img src="https://cdn.17lai.site/media/pic/parrots/exceptionallyfastparrot.webp" width="25" height="25"/>
+    <img src="https://cdn.17lai.site/media/pic/parrots/60fpsparrot.webp" width="25" height="25"/>
+    <img src="https://cdn.17lai.site/media/pic/parrots/jumpingparrot.webp" width="25" height="25"/>
+    <img src="https://cdn.17lai.site/media/pic/parrots/opensourceparrot.webp" width="25" height="25"/>
+    <img src="https://cdn.17lai.site/media/pic/parrots/dealwithitnowparrot.webp" width="25" height="25"/>
+    <img src="https://cdn.17lai.site/media/pic/parrots/hypnoparrotlight.webp" width="25" height="25"/>
+    <img src="https://cdn.17lai.site/media/pic/parrots/databaseparrot.webp" width="25" height="25"/>
+    <img src="https://cdn.17lai.site/media/pic/parrots/fixparrot.webp" width="36" height="25"/>
+    <img src="https://cdn.17lai.site/media/pic/parrots/laptop_parrot.webp" width="25" height="25"/>
+    <img src="https://cdn.17lai.site/media/pic/parrots/spinningparrot.webp" width="25" height="25"/>
+    <img src="https://cdn.17lai.site/media/pic/parrots/levitationparrot.webp" width="25" height="25"/>
+    <img src="https://cdn.17lai.site/media/pic/parrots/meldparrot.webp" width="25" height="25"/>
+    <img src="https://cdn.17lai.site/media/pic/parrots/slomoparrot.webp" width="25" height="25"/>
+    <img src="https://cdn.17lai.site/media/pic/parrots/moonwalkingparrot.webp" width="25" height="25"/>
+    <img src="https://cdn.17lai.site/media/pic/parrots/stableparrot.webp" width="25" height="25"/>
+    <img src="https://cdn.17lai.site/media/pic/parrots/scienceparrot.webp" width="25" height="25"/>
+    <img src="https://cdn.17lai.site/media/pic/parrots/pirateparrot.webp" width="25" height="25"/>
+    <img src="https://cdn.17lai.site/media/pic/parrots/footballparrot.webp" width="25" height="25"/>
+    <img src="https://cdn.17lai.site/media/pic/parrots/illuminatiparrot.webp" width="25" height="25"/>
+    <img src="https://cdn.17lai.site/media/pic/parrots/hypnoparrotdark.webp" width="25" height="25"/>
+    <img src="https://cdn.17lai.site/media/pic/parrots/mustacheparrot.webp" width="25" height="25"/>
 </div>
 
 <div align="center" >
@@ -49,7 +49,7 @@
 
 <h2 align="center">如果这些项目，感觉对你有用，或者感觉有趣，给个Star呗！ 😄 反正Star又不花钱。</h2>
 
-## 最近博文:  -- 自动获取于 2022-05-27 01:23:52
+## 最近博文:  -- 自动获取于 2022-05-27 17:03:34
 * 2022-05-09 - [自建全套开源Devops开发系统](https://blog.17lai.site/posts/ab63eb8f/            )
 * 2022-05-09 - [视频图书和音乐完全自动化管理框架图解](https://blog.17lai.site/posts/db7bf49b/            )
 * 2022-05-02 - [如何建立自己的私人图书馆](https://blog.17lai.site/posts/dc1c8194/            )
