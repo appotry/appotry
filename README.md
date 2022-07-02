@@ -49,7 +49,8 @@
 
 <h2 align="center">如果这些项目，感觉对你有用，或者感觉有趣，给个Star呗！ 😄 反正Star又不花钱。</h2>
 
-## 最近博文:  -- 自动获取于 2022-07-02 01:23:02
+## 最近博文:  -- 自动获取于 2022-07-03 01:16:25
+* 2022-07-02 - [什么才是真正的知识与智慧？](https://blog.17lai.site/posts/ace8b709/            )
 * 2022-05-31 - [RSS的使用与Tiny Tiny RSS Selfhost自建](https://blog.17lai.site/posts/f4926c88/            )
 * 2022-05-30 - [如何做好竞品分析](https://blog.17lai.site/posts/99be6dfb/            )
 * 2022-05-30 - [中西医的优缺点](https://blog.17lai.site/posts/a2a43504/            )
@@ -61,7 +62,6 @@
 * 2022-04-21 - [QNAP添加man pages](https://blog.17lai.site/posts/ba4ef326/            )
 * 2022-04-19 - [Git介绍以及分支模型图解](https://blog.17lai.site/posts/d32a07a7/            )
 * 2022-04-17 - [PMBOK指南（第6版）](https://blog.17lai.site/posts/ac0df556/            )
-* 2022-04-16 - [三万字无坑搭建基于Docker+K8S+GitLab/SVN+Jenkins+Harbor持续集成交付环境](https://blog.17lai.site/posts/39563241/            )
 * [更多文章...](https://blog.17lai.site/)
 
 
