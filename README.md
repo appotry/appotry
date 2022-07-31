@@ -47,13 +47,9 @@
 <!--Trap--:)-->
 <a href="https://github.com/404"><img src="https://blog.17lai.site/medias_webp/line.webp"></a>
 
-****
-
-<h2 align="center">如果这些项目，感觉对你有用，或者感觉有趣，给个Star呗！ 😄 反正Star又不花钱。</h2>
-
 [![This is me](https://readme-typing-svg.herokuapp.com/?size=30&color=15485F&center=true&vCenter=true&width=1400&lines=%F0%9F%92%A1+%E7%9C%9F%E7%BB%8F%E4%B8%80%E5%8F%A5%E8%AF%9D%EF%BC%8C%E5%81%87%E7%BB%8F%E4%BC%A0%E4%B8%87%E5%8D%B7%EF%BC%81)](https://git.io/typing-svg)
 
-## 最近博文:  -- 自动获取于 2022-07-31 20:00:57
+## 最近博文:  -- 自动获取于 2022-07-31 20:03:43
 * 2022-07-28 - [如何编写Linux驱动？](https://blog.17lai.site/posts/ed364362/            )
 * 2022-07-27 - [如何实现自己的操作系统](https://blog.17lai.site/posts/ffcce55d/            )
 * 2022-07-27 - [手把手教你构建 C 语言编译器](https://blog.17lai.site/posts/32570315/            )
