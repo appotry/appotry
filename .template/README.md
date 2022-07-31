@@ -1,4 +1,6 @@
-<h1 align="center">:cn: :octopus: appotry 👋</h1>
+<h1 align="center">Hi 👋, I'm appotry (夜法之书) </h1>
+
+[![This is me](https://readme-typing-svg.herokuapp.com/?size=23&color=15485F&center=true&vCenter=true&width=1400&lines=%F0%9F%92%A1+%E7%9C%9F%E7%BB%8F%E4%B8%80%E5%8F%A5%E8%AF%9D%EF%BC%8C%E5%81%87%E7%BB%8F%E4%BC%A0%E4%B8%87%E5%8D%B7%EF%BC%81)](https://git.io/typing-svg)
 
 <div align="center">
     <img src="https://cdn.17lai.site/media/pic/parrots/githubparrot.webp" width="25" height="25"/>
