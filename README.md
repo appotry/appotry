@@ -49,7 +49,7 @@
 
 [![This is me](https://readme-typing-svg.herokuapp.com/?size=30&color=15485F&center=true&vCenter=true&width=1400&lines=%F0%9F%92%A1+%E7%9C%9F%E7%BB%8F%E4%B8%80%E5%8F%A5%E8%AF%9D%EF%BC%8C%E5%81%87%E7%BB%8F%E4%BC%A0%E4%B8%87%E5%8D%B7%EF%BC%81)](https://git.io/typing-svg)
 
-## 最近博文:  -- 自动获取于 2022-08-01 01:16:32
+## 最近博文:  -- 自动获取于 2022-08-01 18:21:43
 * 2022-07-28 - [如何编写Linux驱动？](https://blog.17lai.site/posts/ed364362/            )
 * 2022-07-27 - [如何实现自己的操作系统](https://blog.17lai.site/posts/ffcce55d/            )
 * 2022-07-27 - [手把手教你构建 C 语言编译器](https://blog.17lai.site/posts/32570315/            )
@@ -62,7 +62,9 @@
 * 2022-05-09 - [自建全套开源Devops开发系统](https://blog.17lai.site/posts/ab63eb8f/            )
 * 2022-05-09 - [视频图书和音乐完全自动化管理框架图解](https://blog.17lai.site/posts/db7bf49b/            )
 * 2022-05-02 - [如何建立自己的私人图书馆](https://blog.17lai.site/posts/dc1c8194/            )
-* [更多文章...](https://blog.17lai.site/)
+* [更多文章...](https://blog.17lai.site/) <a title="My Blog Site" target="_blank" href="https://blog.17lai.site/">
+        <img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%20(blog)-blog.17lai.site-orange" />
+    </a>
 
 [![This is me](https://readme-typing-svg.herokuapp.com/?size=30&color=15485F&center=true&vCenter=true&width=1400&lines=%F0%9F%92%A1+%E4%BD%A0%E7%9C%8B%E5%88%B0%E7%9A%84%EF%BC%8C%E6%98%AF%E5%88%AB%E4%BA%BA%E6%83%B3%E8%AE%A9%E4%BD%A0%E7%9C%8B%E5%88%B0%E7%9A%84%EF%BC%9B%E4%BD%A0%E5%90%AC%E5%88%B0%E7%9A%84%EF%BC%8C%E6%98%AF%E5%88%AB%E4%BA%BA%E6%83%B3%E8%AE%A9%E4%BD%A0%E5%90%AC%E5%88%B0%E7%9A%84%EF%BC%9B%E4%BD%A0%E7%9B%B8%E4%BF%A1%E7%9A%84%EF%BC%8C%E6%98%AF%E5%88%AB%E4%BA%BA%E6%83%B3%E8%AE%A9%E4%BD%A0%E7%9B%B8%E4%BF%A1%E7%9A%84%EF%BC%81)](https://git.io/typing-svg)
 
