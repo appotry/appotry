@@ -49,7 +49,9 @@
 
 [![This is me](https://readme-typing-svg.herokuapp.com/?size=30&color=15485F&center=true&vCenter=true&width=1400&lines=%F0%9F%92%A1+%E7%9C%9F%E7%BB%8F%E4%B8%80%E5%8F%A5%E8%AF%9D%EF%BC%8C%E5%81%87%E7%BB%8F%E4%BC%A0%E4%B8%87%E5%8D%B7%EF%BC%81)](https://git.io/typing-svg)
 
-## <a title="My Blog Site" target="_blank" href="https://blog.17lai.site/"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%20(blog)-blog.17lai.site-orange" /></a> 最近博文:  -- 自动获取于 2022-08-11 01:22:46
+## <a title="My Blog Site" target="_blank" href="https://blog.17lai.site/"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%20(blog)-blog.17lai.site-orange" /></a> 最近博文:  -- 自动获取于 2022-08-11 23:11:54
+* 2022-08-11 - [使用nodeppt给hexo博客嵌入PPT演示](https://blog.17lai.site/posts/546887ac/            )
+* 2022-08-11 - [在 Hexo 博客中插入 ECharts 动态图表](https://blog.17lai.site/posts/217ccdc1/            )
 * 2022-08-07 - [管理故事锦集](https://blog.17lai.site/posts/a6477052/            )
 * 2022-07-28 - [如何编写Linux驱动？](https://blog.17lai.site/posts/ed364362/            )
 * 2022-07-27 - [如何实现自己的操作系统](https://blog.17lai.site/posts/ffcce55d/            )
@@ -60,8 +62,6 @@
 * 2022-05-30 - [中西医的优缺点](https://blog.17lai.site/posts/a2a43504/            )
 * 2022-05-28 - [常用Linux Bash命令教程](https://blog.17lai.site/posts/e691e603/            )
 * 2022-05-28 - [Doxygen入门教程](https://blog.17lai.site/posts/1acb0edb/            )
-* 2022-05-09 - [自建全套开源Devops开发系统](https://blog.17lai.site/posts/ab63eb8f/            )
-* 2022-05-09 - [视频图书和音乐完全自动化管理框架图解](https://blog.17lai.site/posts/db7bf49b/            )
 * [更多文章...](https://blog.17lai.site/) 
 
 [![This is me](https://readme-typing-svg.herokuapp.com/?size=30&color=15485F&center=true&vCenter=true&width=1400&lines=%F0%9F%92%A1+%E4%BD%A0%E7%9C%8B%E5%88%B0%E7%9A%84%EF%BC%8C%E6%98%AF%E5%88%AB%E4%BA%BA%E6%83%B3%E8%AE%A9%E4%BD%A0%E7%9C%8B%E5%88%B0%E7%9A%84%EF%BC%9B%E4%BD%A0%E5%90%AC%E5%88%B0%E7%9A%84%EF%BC%8C%E6%98%AF%E5%88%AB%E4%BA%BA%E6%83%B3%E8%AE%A9%E4%BD%A0%E5%90%AC%E5%88%B0%E7%9A%84%EF%BC%9B%E4%BD%A0%E7%9B%B8%E4%BF%A1%E7%9A%84%EF%BC%8C%E6%98%AF%E5%88%AB%E4%BA%BA%E6%83%B3%E8%AE%A9%E4%BD%A0%E7%9B%B8%E4%BF%A1%E7%9A%84%EF%BC%81)](https://git.io/typing-svg)
