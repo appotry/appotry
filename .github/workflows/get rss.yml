@@ -7,6 +7,8 @@ on:
   #     - master
   # release:
   #   types: [published]
+  watch:
+    types: [started]
   schedule:
     # * is a special character in YAML so you have to quote this string
     # UTC 17:00 -> CST (China) 1:00, see https://datetime360.com/cn/utc-cst-china-time/
@@ -40,8 +42,8 @@ jobs:
        sudo git config user.email "andycrusoe@gmail.com"
        sudo rm -f README.md
        sudo python -m pip install pip -U
-       sudo python -m pip config set global.index-url http://mirrors.aliyun.com/pypi/simple/
-       sudo python -m pip config set install.trusted-host mirrors.aliyun.com
+       #  sudo python -m pip config set global.index-url http://mirrors.aliyun.com/pypi/simple/
+       #  sudo python -m pip config set install.trusted-host mirrors.aliyun.com
        sudo python -m pip install -r requirements.txt 
        sudo python generator.py
        sudo git add -f README.md
