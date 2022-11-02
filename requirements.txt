@@ -2,7 +2,7 @@ DateTime==4.7
 pytz==2022.6
 requests==2.28.1
 beautifulsoup4
-Pillow==9.2.0
+Pillow==9.3.0
 lxml
 setuptools
 pyyaml
