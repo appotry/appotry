@@ -1,4 +1,4 @@
-DateTime==4.9
+DateTime==5.0
 pytz==2022.7
 requests==2.28.1
 beautifulsoup4
