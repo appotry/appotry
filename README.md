@@ -38,7 +38,7 @@
 <!--Trap--:)-->
 <a href="https://github.com/404"><img src="https://blog.17lai.site/medias_webp/line.webp"></a>
 
-<img align="right" src="https://github-readme-stats.vercel.app/api?username=appotry&show_icons=true&icon_color=0366d6&text_color=24292e&bg_color=ffffff&hide_title=false" />
+<img align="right" src="https://github-readme-statistics-sad0xer.vercel.app/api?username=appotry&show_icons=true&icon_color=0366d6&text_color=24292e&bg_color=ffffff&hide_title=false" />
 
 🤗 &nbsp;你好~ 我是 [**appotry**](https://blog.17lai.site)，linux architectures. Linux System Programer, Embeded Linux engineer.
 
@@ -49,7 +49,7 @@
 
 [![This is me](https://readme-typing-svg.herokuapp.com/?size=30&color=15485F&center=true&vCenter=true&width=1400&lines=%F0%9F%92%A1+%E7%9C%9F%E7%BB%8F%E4%B8%80%E5%8F%A5%E8%AF%9D%EF%BC%8C%E5%81%87%E7%BB%8F%E4%BC%A0%E4%B8%87%E5%8D%B7%EF%BC%81)](https://git.io/typing-svg)
 
-## <a title="My Blog Site" target="_blank" href="https://blog.17lai.site/"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%20(blog)-blog.17lai.site-orange" /></a> 最近博文:  -- 自动获取于 2023-01-13 01:23:43
+## <a title="My Blog Site" target="_blank" href="https://blog.17lai.site/"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%20(blog)-blog.17lai.site-orange" /></a> 最近博文:  -- 自动获取于 2023-01-13 19:47:24
 * 2022-10-23 - [关于经济观察，投资理财以及未来经济展望](https://blog.17lai.site/posts/bbc8a231/            )
 * 2022-10-06 - [关于普朗克概率的的讨论](https://blog.17lai.site/posts/60146716/            )
 * 2022-10-02 - [那些有用的Github工具介绍！Action、app、workflow等](https://blog.17lai.site/posts/78c3371/            )
