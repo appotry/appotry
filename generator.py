@@ -12,6 +12,7 @@ import pytz
 import datetime
 import requests
 from bs4 import BeautifulSoup
+import markdown
 
 headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36'
@@ -100,21 +101,27 @@ def formatPost(item):
     )
 
 if __name__ == '__main__':
+    # print(feed.urls)
     with open('./README.md', 'wt', encoding='utf-8') as fw:
         with open('./.template/README.md', 'rt', encoding='utf-8') as fr:
             posts = sorted(loadPostsByRSS(), key=lambda x:x.getDate(),reverse=True)
             recent_posts = ''
             if len(posts) > 0:
-                recent_posts = '| **日期** | **标题** |\n| --- | --- |\n'
-                for i in range(10):
-                    if i < len(posts):
-                        date = datetime.datetime.strftime(posts[i].getDate(), '%Y-%m-%d')
-                        title = posts[i].getTitle()
-                        link = posts[i].getLink()
-                        recent_posts += f'| {date} | [{title}]({link}) |\n'
+                table_rows = []
+                for i, post in enumerate(posts[:20]):
+                    if i % 10 == 0:
+                        table_rows.append(['**Date**', '**Title**'])
+                    date_str = datetime.datetime.strftime(post.getDate(),'%Y-%m-%d')
+                    title = post.getTitle()
+                    link = post.getLink()
+                    table_rows.append([date_str, f"[{title}]({link})"])
+                table_md = markdown.markdown(tabulate(table_rows, tablefmt="pipe"), extensions=['markdown.extensions.tables'])
+                recent_posts = table_md
+
             content = fr.read().replace(TO_REPLACE_POSTS, recent_posts)
             createdAt = datetime.datetime.now(tz)
             createdAt = datetime.datetime.strftime(createdAt,'%Y-%m-%d %H:%M:%S')
             content = content.replace(TO_REPLACE_DATE, createdAt)
             fw.write(content)
+
 

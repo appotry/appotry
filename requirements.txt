@@ -6,3 +6,4 @@ Pillow==9.4.0
 lxml
 setuptools
 pyyaml
+markdown
