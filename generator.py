@@ -12,8 +12,6 @@ import pytz
 import datetime
 import requests
 from bs4 import BeautifulSoup
-import markdown
-from tabulate import tabulate
 
 headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36'
@@ -88,7 +86,7 @@ TO_REPLACE_DATE = '{{Generated At}}'
 
 BLOG_URL_PREFIX = 'https://blog.17lai.site'
 
-RECENT_POST_LIMIT = 20
+RECENT_POST_LIMIT = 12
 
 # 时区定义
 tz = pytz.timezone('Asia/Shanghai')
@@ -108,21 +106,9 @@ if __name__ == '__main__':
             posts = sorted(loadPostsByRSS(), key=lambda x:x.getDate(),reverse=True)
             recent_posts = ''
             if len(posts) > 0:
-                table_rows = []
-                for i, post in enumerate(posts[:20]):
-                    if i % 10 == 0:
-                        table_rows.append(['**Date**', '**Title**'])
-                    date_str = datetime.datetime.strftime(post.getDate(),'%Y-%m-%d')
-                    title = post.getTitle()
-                    link = post.getLink()
-                    table_rows.append([date_str, f"[{title}]({link})"])
-                table_md = markdown.markdown(tabulate(table_rows, tablefmt="pipe"), extensions=['markdown.extensions.tables'])
-                recent_posts = table_md
-
+                recent_posts = '\n'.join(list(map(lambda x: formatPost(x), posts[:RECENT_POST_LIMIT])))
             content = fr.read().replace(TO_REPLACE_POSTS, recent_posts)
             createdAt = datetime.datetime.now(tz)
             createdAt = datetime.datetime.strftime(createdAt,'%Y-%m-%d %H:%M:%S')
             content = content.replace(TO_REPLACE_DATE, createdAt)
             fw.write(content)
-
-
