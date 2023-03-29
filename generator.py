@@ -86,7 +86,7 @@ TO_REPLACE_DATE = '{{Generated At}}'
 
 BLOG_URL_PREFIX = 'https://blog.17lai.site'
 
-RECENT_POST_LIMIT = 12
+RECENT_POST_LIMIT = 20
 
 # 时区定义
 tz = pytz.timezone('Asia/Shanghai')
@@ -100,15 +100,21 @@ def formatPost(item):
     )
 
 if __name__ == '__main__':
-    # print(feed.urls)
     with open('./README.md', 'wt', encoding='utf-8') as fw:
         with open('./.template/README.md', 'rt', encoding='utf-8') as fr:
             posts = sorted(loadPostsByRSS(), key=lambda x:x.getDate(),reverse=True)
             recent_posts = ''
             if len(posts) > 0:
-                recent_posts = '\n'.join(list(map(lambda x: formatPost(x), posts[:RECENT_POST_LIMIT])))
+                recent_posts = '| **日期** | **标题** |\n| --- | --- |\n'
+                for i in range(10):
+                    if i < len(posts):
+                        date = datetime.datetime.strftime(posts[i].getDate(), '%Y-%m-%d')
+                        title = posts[i].getTitle()
+                        link = posts[i].getLink()
+                        recent_posts += f'| {date} | [{title}]({link}) |\n'
             content = fr.read().replace(TO_REPLACE_POSTS, recent_posts)
             createdAt = datetime.datetime.now(tz)
             createdAt = datetime.datetime.strftime(createdAt,'%Y-%m-%d %H:%M:%S')
             content = content.replace(TO_REPLACE_DATE, createdAt)
             fw.write(content)
+
