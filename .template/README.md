@@ -49,6 +49,13 @@
 
 [![This is me](https://readme-typing-svg.herokuapp.com/?size=30&color=15485F&center=true&vCenter=true&width=1400&lines=%F0%9F%92%A1+%E7%9C%9F%E7%BB%8F%E4%B8%80%E5%8F%A5%E8%AF%9D%EF%BC%8C%E5%81%87%E7%BB%8F%E4%BC%A0%E4%B8%87%E5%8D%B7%EF%BC%81)](https://git.io/typing-svg)
 
+## 精品博文推荐
+
+| [海思MPP&UNF构架源代码级分析](https://blog.17lai.site/posts/13894dce/) | [如何编写Linux驱动？](https://blog.17lai.site/posts/ed364362/) | [**自建全套家庭多媒体中心**](https://blog.17lai.site/posts/9912bd5d/) |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [**全套自建Hexo博客教程**](https://blog.17lai.site/posts/40300608/) | [**超全博客写作技巧教程**](https://blog.17lai.site/posts/253706ff/) | [**自建全套开源Devops开发系统**](https://blog.17lai.site/posts/ab63eb8f/) |
+
+
 ## <a title="My Blog Site" target="_blank" href="https://blog.17lai.site/"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%20(blog)-blog.17lai.site-orange" /></a> 最近博文:  -- 自动获取于 {{Generated At}}
 {{Recent Posts}}
 * [更多文章...](https://blog.17lai.site/) 
