@@ -1,6 +1,6 @@
 DateTime==5.1
 pytz==2023.3
-requests==2.29.0
+requests==2.31.0
 beautifulsoup4
 Pillow==9.5.0
 lxml
