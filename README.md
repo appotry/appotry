@@ -56,7 +56,8 @@
 | [**全套自建Hexo博客教程**](https://blog.17lai.site/posts/40300608/) | [**超全博客写作技巧教程**](https://blog.17lai.site/posts/253706ff/) | [**自建全套家庭多媒体中心**](https://blog.17lai.site/posts/9912bd5d/) |
 
 
-## <a title="My Blog Site" target="_blank" href="https://blog.17lai.site/"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%20(blog)-blog.17lai.site-orange" /></a> 最近博文:  -- 自动获取于 2023-06-25 01:10:23
+## <a title="My Blog Site" target="_blank" href="https://blog.17lai.site/"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%20(blog)-blog.17lai.site-orange" /></a> 最近博文:  -- 自动获取于 2023-06-25 20:38:24
+* 2023-06-25 - [高考志愿填报经验总结](https://blog.17lai.site/posts/a75c0d00/            )
 * 2023-04-27 - [千古奇书推荐《渔樵问对》讲述天地至理](https://blog.17lai.site/posts/a67e8c54/            )
 * 2023-04-23 - [三大神书推荐：赤脚医生手册、民兵军事训练手册、军地两用人才之友](https://blog.17lai.site/posts/c8ba1397/            )
 * 2023-03-24 - [开源观察之到底是谁在主导开源软件生态的发展？](https://blog.17lai.site/posts/bd70a73c/            )
@@ -68,7 +69,6 @@
 * 2023-02-05 - [如何建立自己的私人电子图书馆--出版书籍，网络小说，漫画一网打尽!](https://blog.17lai.site/posts/dc1c8194/            )
 * 2023-02-01 - [中国区注册ChatGPT并使用全流程图解教程](https://blog.17lai.site/posts/1336c869/            )
 * 2023-01-31 - [yandex源代码泄露? 精品代码下载与赏析](https://blog.17lai.site/posts/32259d84/            )
-* 2022-10-23 - [关于经济观察，投资理财以及未来经济展望](https://blog.17lai.site/posts/bbc8a231/            )
 * [更多文章...](https://blog.17lai.site/) 
 
 [![This is me](https://readme-typing-svg.herokuapp.com/?size=30&color=15485F&center=true&vCenter=true&width=1400&lines=%F0%9F%92%A1+%E4%BD%A0%E7%9C%8B%E5%88%B0%E7%9A%84%EF%BC%8C%E6%98%AF%E5%88%AB%E4%BA%BA%E6%83%B3%E8%AE%A9%E4%BD%A0%E7%9C%8B%E5%88%B0%E7%9A%84%EF%BC%9B%E4%BD%A0%E5%90%AC%E5%88%B0%E7%9A%84%EF%BC%8C%E6%98%AF%E5%88%AB%E4%BA%BA%E6%83%B3%E8%AE%A9%E4%BD%A0%E5%90%AC%E5%88%B0%E7%9A%84%EF%BC%9B%E4%BD%A0%E7%9B%B8%E4%BF%A1%E7%9A%84%EF%BC%8C%E6%98%AF%E5%88%AB%E4%BA%BA%E6%83%B3%E8%AE%A9%E4%BD%A0%E7%9B%B8%E4%BF%A1%E7%9A%84%EF%BC%81)](https://git.io/typing-svg)
