@@ -56,7 +56,7 @@
 | [**全套自建Hexo博客教程**](https://blog.17lai.site/posts/40300608/) | [**超全博客写作技巧教程**](https://blog.17lai.site/posts/253706ff/) | [**自建全套家庭多媒体中心**](https://blog.17lai.site/posts/9912bd5d/) |
 
 
-## <a title="My Blog Site" target="_blank" href="https://blog.17lai.site/"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%20(blog)-blog.17lai.site-orange" /></a> 最近博文:  -- 自动获取于 2023-06-26 01:10:34
+## <a title="My Blog Site" target="_blank" href="https://blog.17lai.site/"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%20(blog)-blog.17lai.site-orange" /></a> 最近博文:  -- 自动获取于 2023-06-26 22:12:19
 * 2023-06-25 - [高考志愿填报经验总结](https://blog.17lai.site/posts/a75c0d00/            )
 * 2023-04-27 - [千古奇书推荐《渔樵问对》讲述天地至理](https://blog.17lai.site/posts/a67e8c54/            )
 * 2023-04-23 - [三大神书推荐：赤脚医生手册、民兵军事训练手册、军地两用人才之友](https://blog.17lai.site/posts/c8ba1397/            )
