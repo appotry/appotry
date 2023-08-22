@@ -56,7 +56,8 @@
 | [**全套自建Hexo博客教程**](https://blog.17lai.site/posts/40300608/) | [**超全博客写作技巧教程**](https://blog.17lai.site/posts/253706ff/) | [**自建全套家庭多媒体中心**](https://blog.17lai.site/posts/9912bd5d/) |
 
 
-## <a title="My Blog Site" target="_blank" href="https://blog.17lai.site/"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%20(blog)-blog.17lai.site-orange" /></a> 最近博文:  -- 自动获取于 2023-08-22 01:09:10
+## <a title="My Blog Site" target="_blank" href="https://blog.17lai.site/"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%20(blog)-blog.17lai.site-orange" /></a> 最近博文:  -- 自动获取于 2023-08-23 01:09:26
+* 2023-08-22 - [从零开始玩PT-入门到精通](https://blog.17lai.site/posts/9806d7f1/            )
 * 2023-07-22 - [信息时代必备的搜索引擎高级技巧使用指南](https://blog.17lai.site/posts/f12af66/            )
 * 2023-06-25 - [高考志愿填报经验总结](https://blog.17lai.site/posts/a75c0d00/            )
 * 2023-04-27 - [千古奇书推荐《渔樵问对》讲述天地至理](https://blog.17lai.site/posts/a67e8c54/            )
@@ -68,7 +69,6 @@
 * 2023-02-20 - [在宝塔VPS上面采用docker部署waline全流程图解教程](https://blog.17lai.site/posts/8f9792ab/            )
 * 2023-02-14 - [生活中的那些有趣的不可能三角介绍与解析](https://blog.17lai.site/posts/63302e8a/            )
 * 2023-02-05 - [如何建立自己的私人电子图书馆--出版书籍，网络小说，漫画一网打尽!](https://blog.17lai.site/posts/dc1c8194/            )
-* 2023-02-01 - [中国区注册ChatGPT并使用全流程图解教程](https://blog.17lai.site/posts/1336c869/            )
 * [更多文章...](https://blog.17lai.site/) 
 
 [![This is me](https://readme-typing-svg.herokuapp.com/?size=30&color=15485F&center=true&vCenter=true&width=1400&lines=%F0%9F%92%A1+%E4%BD%A0%E7%9C%8B%E5%88%B0%E7%9A%84%EF%BC%8C%E6%98%AF%E5%88%AB%E4%BA%BA%E6%83%B3%E8%AE%A9%E4%BD%A0%E7%9C%8B%E5%88%B0%E7%9A%84%EF%BC%9B%E4%BD%A0%E5%90%AC%E5%88%B0%E7%9A%84%EF%BC%8C%E6%98%AF%E5%88%AB%E4%BA%BA%E6%83%B3%E8%AE%A9%E4%BD%A0%E5%90%AC%E5%88%B0%E7%9A%84%EF%BC%9B%E4%BD%A0%E7%9B%B8%E4%BF%A1%E7%9A%84%EF%BC%8C%E6%98%AF%E5%88%AB%E4%BA%BA%E6%83%B3%E8%AE%A9%E4%BD%A0%E7%9B%B8%E4%BF%A1%E7%9A%84%EF%BC%81)](https://git.io/typing-svg)
