@@ -41,10 +41,15 @@ jobs:
        sudo git config user.name "appotry"
        sudo git config user.email "andycrusoe@gmail.com"
        sudo rm -f README.md
+
+       # 安装依赖到虚拟环境
+       sudo python -m venv venv
+       sudo source venv/bin/activate
        sudo python -m pip install pip -U
        #  sudo python -m pip config set global.index-url http://mirrors.aliyun.com/pypi/simple/
        #  sudo python -m pip config set install.trusted-host mirrors.aliyun.com
        sudo python -m pip install -r requirements.txt 
+
        sudo python generator.py
        sudo git add -f README.md
        sudo git commit -m "Update README.md by Github Action"
