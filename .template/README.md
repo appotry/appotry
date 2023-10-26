@@ -51,7 +51,7 @@
 
 ## 精品博文推荐
 
-| [海思MPP&UNF构架源代码级分析](https://blog.17lai.site/posts/13894dce/) | [如何编写Linux驱动？](https://blog.17lai.site/posts/ed364362/) | [**自建全套开源Devops开发系统**](https://blog.17lai.site/posts/ab63eb8f/) | [**硬件项目管理全流程简明教程**](https://blog.17lai.site/posts/d8b1e381/) |
+| [海思MPP&UNF源代码级分析](https://blog.17lai.site/posts/13894dce/) | [如何编写Linux驱动？](https://blog.17lai.site/posts/ed364362/) | [**自建全套开源Devops开发系统**](https://blog.17lai.site/posts/ab63eb8f/) | [**硬件项目管理全流程简明教程**](https://blog.17lai.site/posts/d8b1e381/) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [**全套自建Hexo博客教程**](https://blog.17lai.site/posts/40300608/) | [**超全博客写作技巧教程**](https://blog.17lai.site/posts/253706ff/) | [**自建全套家庭多媒体中心**](https://blog.17lai.site/posts/9912bd5d/) | [**全套自建全套电子图书馆教程**](https://blog.17lai.site/posts/dc1c8194/) |
 
