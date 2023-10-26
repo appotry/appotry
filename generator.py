@@ -56,7 +56,7 @@ class ReadRss:
             print('Error fetching the URL: ', rss_url)
             print(e)
         try:    
-            self.soup = BeautifulSoup(self.r.text, 'lxml')
+            self.soup = BeautifulSoup(self.r.text, 'lxml', features="xml")
         except Exception as e:
             print('Could not parse the xml: ', self.url)
             print(e)
