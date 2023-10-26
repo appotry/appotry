@@ -34,22 +34,22 @@ jobs:
       env:
        GH_REPO: github.com/appotry/appotry.git
       run: |
-       sudo mkdir -p /home/runner/work/artifacts/
+       mkdir -p /home/runner/work/artifacts/
        cd /home/runner/work/artifacts/
-       sudo git clone https://github.com/appotry/appotry.git 
+       git clone https://github.com/appotry/appotry.git 
        cd /home/runner/work/artifacts/appotry
-       sudo git config user.name "appotry"
-       sudo git config user.email "andycrusoe@gmail.com"
-       sudo rm -f README.md
+       git config user.name "appotry"
+       git config user.email "andycrusoe@gmail.com"
+       rm -f README.md
 
        # 安装依赖到虚拟环境
-       sudo python -m venv venv
-       sudo venv/bin/pip install pip -U
-       #  sudo python -m pip config set global.index-url http://mirrors.aliyun.com/pypi/simple/
-       #  sudo python -m pip config set install.trusted-host mirrors.aliyun.com
-       sudo venv/bin/pip install -r requirements.txt 
+       python -m venv venv
+       venv/bin/pip install pip -U
+       #  venv/bin/pip config set global.index-url http://mirrors.aliyun.com/pypi/simple/
+       #  venv/bin/pip config set install.trusted-host mirrors.aliyun.com
+       venv/bin/pip install -r requirements.txt 
 
-       sudo python generator.py
-       sudo git add -f README.md
-       sudo git commit -m "Update README.md by Github Action"
-       sudo git push --force --quiet "https://${{ secrets.CI_TOKEN }}@$GH_REPO" main:main
+       python generator.py
+       git add -f README.md
+       git commit -m "Update README.md by Github Action"
+       git push --force --quiet "https://${{ secrets.CI_TOKEN }}@$GH_REPO" main:main
