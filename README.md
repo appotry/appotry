@@ -31,7 +31,7 @@
 
 <div align="center" >
   
-[![Blog](https://img.shields.io/badge/Blog-%23FFA500.svg?&style=for-the-badge&logo=rss&logoColor=white)](https://blog.17lai.site)[![RSS](https://img.shields.io/badge/RSS-orange.svg?&style=for-the-badge&logo=rss&logoColor=white)](https://cdn.jsdelivr.net/gh/appotry/hexo@latest/atom.xml)[![Github](https://img.shields.io/badge/-Github-%23EEEEEE?logo=Github&style=for-the-badge&logoColor=black)](https://github.com/appotry)[![Docker](https://img.shields.io/badge/-Docker-%232496ED?logo=Docker&style=for-the-badge&logoColor=black)](https://hub.docker.com/u/bloodstar)![Linux](https://img.shields.io/badge/-Linux-%257A143?logo=Linux&style=for-the-badge&logoColor=black)![Shell](https://img.shields.io/badge/-Shell-%233776AB?logo=Windows%20Terminal&style=for-the-badge&logoColor=white)![C/C++](https://img.shields.io/badge/-C/C++-%23EEEEEE?logo=C&style=for-the-badge&logoColor=black)![Kernel](https://img.shields.io/badge/-Kernel-%234FC08D?logo=linux&style=for-the-badge&logoColor=white)![AIOT](https://img.shields.io/badge/-AIOT-yellowgreen?logo=IOTA&style=for-the-badge&logoColor=black)
+[![Blog](https://img.shields.io/badge/Blog-%23FFA500.svg?&style=for-the-badge&logo=rss&logoColor=white)](https://blog.17lai.site)[![RSS](https://img.shields.io/badge/RSS-orange.svg?&style=for-the-badge&logo=rss&logoColor=white)](https://cfblog.17lai.site/atom.xml)[![Github](https://img.shields.io/badge/-Github-%23EEEEEE?logo=Github&style=for-the-badge&logoColor=black)](https://github.com/appotry)[![Docker](https://img.shields.io/badge/-Docker-%232496ED?logo=Docker&style=for-the-badge&logoColor=black)](https://hub.docker.com/u/bloodstar)![Linux](https://img.shields.io/badge/-Linux-%257A143?logo=Linux&style=for-the-badge&logoColor=black)![Shell](https://img.shields.io/badge/-Shell-%233776AB?logo=Windows%20Terminal&style=for-the-badge&logoColor=white)![C/C++](https://img.shields.io/badge/-C/C++-%23EEEEEE?logo=C&style=for-the-badge&logoColor=black)![Kernel](https://img.shields.io/badge/-Kernel-%234FC08D?logo=linux&style=for-the-badge&logoColor=white)![AIOT](https://img.shields.io/badge/-AIOT-yellowgreen?logo=IOTA&style=for-the-badge&logoColor=black)
 
 </div>
 
@@ -55,7 +55,7 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [**全套自建Hexo博客教程**](https://blog.17lai.site/posts/40300608/) | [**超全博客写作技巧教程**](https://blog.17lai.site/posts/253706ff/) | [**自建全套家庭多媒体中心**](https://blog.17lai.site/posts/9912bd5d/) | [**自建全套电子图书馆教程**](https://blog.17lai.site/posts/dc1c8194/) |
 
-## <a title="My Blog Site" target="_blank" href="https://blog.17lai.site/"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%20(blog)-blog.17lai.site-orange" /></a> 最近博文:  -- 自动获取于 2024-03-07 01:10:49
+## <a title="My Blog Site" target="_blank" href="https://blog.17lai.site/"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%20(blog)-blog.17lai.site-orange" /></a> 最近博文:  -- 自动获取于 2024-03-07 21:18:44
 * 2024-02-18 - [人格类型分类总结归纳](https://blog.17lai.site/posts/ec34b111/            )
 * 2023-12-21 - [Linux Bash Shell 使用技巧归纳整理](https://blog.17lai.site/posts/43780ce1/            )
 * 2023-08-22 - [从零开始玩PT-入门到精通](https://blog.17lai.site/posts/9806d7f1/            )
