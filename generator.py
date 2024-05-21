@@ -69,7 +69,7 @@ class ReadRss:
 
 def loadPostsByRSS():
     feed = ReadRss(POSTS_RSS_URL, headers)
-    # print(feed.urls)
+    print(feed.urls)
     if feed.status_code == 200:
         for i in range(RECENT_POST_LIMIT):
             publish_date = datetime.datetime.strptime(feed.pub_dates[i], '%a, %d %b %Y %H:%M:%S +0800')
