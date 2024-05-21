@@ -55,15 +55,20 @@ class Post:
         return datetime.datetime.strptime(dt,'%Y-%m-%d %H:%M:%S')
       
 class ReadRss:
-
     def __init__(self, rss_url):
         self.url = rss_url
         try:
             service = Service(CHROMEDRIVER_PATH)
             driver = webdriver.Chrome(service=service, options=chrome_options)
             driver.get(rss_url)
-            # 增加等待时间，确保页面内容完全加载
-            time.sleep(5)
+            time.sleep(10)  # 增加等待时间，确保页面内容完全加载
+
+            # 等待 Cloudflare 的挑战解决
+            for i in range(20):
+                if "Just a moment" not in driver.page_source:
+                    break
+                time.sleep(1)
+            
             self.page_source = driver.page_source
             driver.quit()
             print(f'Request to {rss_url} successful')
