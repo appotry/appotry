@@ -94,6 +94,9 @@ def loadPostsByRSS():
 # 常量定义
 POSTS_RSS_URL = 'https://17lai.netlify.app/rss.xml'
 
+# 使用 cloudflare 时，需要使用cloudscraper 来代替 requests
+# POSTS_RSS_URL = 'https://blog.17lai.site/rss.xml'
+
 TO_REPLACE_POSTS = '{{Recent Posts}}'
 TO_REPLACE_DATE = '{{Generated At}}'
 
