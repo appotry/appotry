@@ -8,3 +8,4 @@ setuptools
 pyyaml
 virtualenv
 cloudscraper
+selenium

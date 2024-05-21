@@ -33,6 +33,7 @@ jobs:
     - name: Generate README.md for github.com
       env:
        GH_REPO: github.com/appotry/appotry.git
+       CHROMEDRIVER_PATH: /usr/local/bin/chromedriver
       run: |
        mkdir -p /home/runner/work/artifacts/
        cd /home/runner/work/artifacts/
@@ -49,6 +50,12 @@ jobs:
        #  venv/bin/pip config set global.index-url http://mirrors.aliyun.com/pypi/simple/
        #  venv/bin/pip config set install.trusted-host mirrors.aliyun.com
        venv/bin/pip install -r requirements.txt 
+
+       sudo apt-get update
+       sudo apt-get install -y chromium-browser
+       sudo apt-get install -y chromium-chromedriver
+       sudo ln -s /usr/lib/chromium-browser/chromedriver /usr/local/bin/chromedriver
+
 
        python generator.py
        
