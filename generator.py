@@ -92,7 +92,7 @@ def loadPostsByRSS():
         return []
 
 # 常量定义
-POSTS_RSS_URL = 'https://blog.17lai.site/rss.xml'
+POSTS_RSS_URL = 'https://17lai.netlify.app/rss.xml'
 
 TO_REPLACE_POSTS = '{{Recent Posts}}'
 TO_REPLACE_DATE = '{{Generated At}}'
