@@ -10,7 +10,10 @@ import re
 import json
 import pytz
 import datetime
-import requests
+
+# import requests
+import cloudscraper
+
 from bs4 import BeautifulSoup
 
 headers = {
@@ -47,8 +50,10 @@ class ReadRss:
  
         self.url = rss_url
         self.headers = headers
+        scraper = cloudscraper.create_scraper()
         try:
-            response = requests.get(rss_url, headers=self.headers)
+            # response = requests.get(rss_url, headers=self.headers)
+            response = scraper.get(rss_url, headers=self.headers)
             response.encoding = 'utf-8'
             self.r = response
             self.status_code = self.r.status_code
