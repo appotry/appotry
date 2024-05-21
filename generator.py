@@ -61,9 +61,13 @@ class ReadRss:
             service = Service(CHROMEDRIVER_PATH)
             driver = webdriver.Chrome(service=service, options=chrome_options)
             driver.get(rss_url)
+            # 增加等待时间，确保页面内容完全加载
+            time.sleep(5)
             self.page_source = driver.page_source
             driver.quit()
             print(f'Request to {rss_url} successful')
+            # 输出页面源代码以便调试
+            print(self.page_source[:1000])  # 只输出前1000个字符，避免日志过长
         except Exception as e:
             print('Error fetching the URL: ', rss_url)
             print(e)
