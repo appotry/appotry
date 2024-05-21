@@ -19,6 +19,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
 
 from bs4 import BeautifulSoup
+import time
 
 # 配置Chrome选项
 chrome_options = Options()
