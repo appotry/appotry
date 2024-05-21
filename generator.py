@@ -12,13 +12,22 @@ import pytz
 import datetime
 
 # import requests
-import cloudscraper
+# import cloudscraper
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
 
 from bs4 import BeautifulSoup
 
-headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Safari/537.36'
-        }
+# 配置Chrome选项
+chrome_options = Options()
+chrome_options.add_argument('--headless')  # 在无头模式下运行
+chrome_options.add_argument('--no-sandbox')
+chrome_options.add_argument('--disable-dev-shm-usage')
+
+# 设置Chrome WebDriver路径
+CHROMEDRIVER_PATH = '/usr/local/bin/chromedriver'
 
 # 文档实体结构定义
 class Post:
@@ -45,26 +54,23 @@ class Post:
         return datetime.datetime.strptime(dt,'%Y-%m-%d %H:%M:%S')
       
 class ReadRss:
- 
-    def __init__(self, rss_url, headers):
- 
+
+    def __init__(self, rss_url):
         self.url = rss_url
-        self.headers = headers
-        scraper = cloudscraper.create_scraper()
         try:
-            # response = requests.get(rss_url, headers=self.headers)
-            response = scraper.get(rss_url, headers=self.headers)
-            response.encoding = 'utf-8'
-            self.r = response
-            self.status_code = self.r.status_code
-            print(f'Request to {rss_url} returned status code {self.status_code}')
+            service = Service(CHROMEDRIVER_PATH)
+            driver = webdriver.Chrome(service=service, options=chrome_options)
+            driver.get(rss_url)
+            self.page_source = driver.page_source
+            driver.quit()
+            print(f'Request to {rss_url} successful')
         except Exception as e:
             print('Error fetching the URL: ', rss_url)
             print(e)
-        try:    
-            self.soup = BeautifulSoup(self.r.text, 'lxml')
+        try:
+            self.soup = BeautifulSoup(self.page_source, 'lxml')
             self.articles = self.soup.findAll('item')
-            self.articles_dicts = [{'title':a.find('title').text,'link':a.link.next_sibling.replace('\n','').replace('\t',''),'description':a.find('description').text,'pubdate':a.find('pubdate').text} for a in self.articles]
+            self.articles_dicts = [{'title': a.find('title').text, 'link': a.link.next_sibling.replace('\n', '').replace('\t', ''), 'description': a.find('description').text, 'pubdate': a.find('pubdate').text} for a in self.articles]
             self.urls = [d['link'] for d in self.articles_dicts if 'link' in d]
             self.titles = [d['title'] for d in self.articles_dicts if 'title' in d]
             self.descriptions = [d['description'] for d in self.articles_dicts if 'description' in d]
@@ -81,19 +87,19 @@ class ReadRss:
             self.pub_dates = []
 
 def loadPostsByRSS():
-    feed = ReadRss(POSTS_RSS_URL, headers)
+    feed = ReadRss(POSTS_RSS_URL)
     print(feed.urls)
-    if feed.status_code == 200:
+    if feed.page_source:
         for i in range(min(RECENT_POST_LIMIT, len(feed.pub_dates))):
             try:
                 publish_date = datetime.datetime.strptime(feed.pub_dates[i], '%a, %d %b %Y %H:%M:%S +0800')
-                publish_date = datetime.datetime.strftime(publish_date,'%Y-%m-%d %H:%M:%S')
-                yield Post(publish_date,feed.urls[i],feed.titles[i], None)
+                publish_date = datetime.datetime.strftime(publish_date, '%Y-%m-%d %H:%M:%S')
+                yield Post(publish_date, feed.urls[i], feed.titles[i], None)
             except Exception as e:
                 print(f'Error parsing date for article {i}: {feed.pub_dates[i]}')
                 print(e)
     else:
-        print(f'Error: received status code {feed.status_code}')
+        print('Error: could not retrieve page source')
         return []
 
 # 常量定义
