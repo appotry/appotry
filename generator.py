@@ -17,6 +17,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 from bs4 import BeautifulSoup
 import time
@@ -61,14 +63,11 @@ class ReadRss:
             service = Service(CHROMEDRIVER_PATH)
             driver = webdriver.Chrome(service=service, options=chrome_options)
             driver.get(rss_url)
-            time.sleep(10)  # 增加等待时间，确保页面内容完全加载
-
-            # 等待 Cloudflare 的挑战解决
-            for i in range(20):
-                if "Just a moment" not in driver.page_source:
-                    break
-                time.sleep(1)
             
+            # 增加等待时间，确保页面内容完全加载
+            wait = WebDriverWait(driver, 30)
+            wait.until(EC.presence_of_element_located((By.TAG_NAME, "item")))
+
             self.page_source = driver.page_source
             driver.quit()
             print(f'Request to {rss_url} successful')
