@@ -52,30 +52,43 @@ class ReadRss:
             response.encoding = 'utf-8'
             self.r = response
             self.status_code = self.r.status_code
+            print(f'Request to {rss_url} returned status code {self.status_code}')
         except Exception as e:
             print('Error fetching the URL: ', rss_url)
             print(e)
         try:    
             self.soup = BeautifulSoup(self.r.text, 'lxml')
+            self.articles = self.soup.findAll('item')
+            self.articles_dicts = [{'title':a.find('title').text,'link':a.link.next_sibling.replace('\n','').replace('\t',''),'description':a.find('description').text,'pubdate':a.find('pubdate').text} for a in self.articles]
+            self.urls = [d['link'] for d in self.articles_dicts if 'link' in d]
+            self.titles = [d['title'] for d in self.articles_dicts if 'title' in d]
+            self.descriptions = [d['description'] for d in self.articles_dicts if 'description' in d]
+            self.pub_dates = [d['pubdate'] for d in self.articles_dicts if 'pubdate' in d]
+            print(f'Parsed {len(self.articles)} articles from RSS feed')
         except Exception as e:
             print('Could not parse the xml: ', self.url)
             print(e)
-        self.articles = self.soup.findAll('item')
-        self.articles_dicts = [{'title':a.find('title').text,'link':a.link.next_sibling.replace('\n','').replace('\t',''),'description':a.find('description').text,'pubdate':a.find('pubdate').text} for a in self.articles]
-        self.urls = [d['link'] for d in self.articles_dicts if 'link' in d]
-        self.titles = [d['title'] for d in self.articles_dicts if 'title' in d]
-        self.descriptions = [d['description'] for d in self.articles_dicts if 'description' in d]
-        self.pub_dates = [d['pubdate'] for d in self.articles_dicts if 'pubdate' in d]
+            self.articles = []
+            self.articles_dicts = []
+            self.urls = []
+            self.titles = []
+            self.descriptions = []
+            self.pub_dates = []
 
 def loadPostsByRSS():
     feed = ReadRss(POSTS_RSS_URL, headers)
     print(feed.urls)
     if feed.status_code == 200:
-        for i in range(RECENT_POST_LIMIT):
-            publish_date = datetime.datetime.strptime(feed.pub_dates[i], '%a, %d %b %Y %H:%M:%S +0800')
-            publish_date = datetime.datetime.strftime(publish_date,'%Y-%m-%d %H:%M:%S')
-            yield Post(publish_date,feed.urls[i],feed.titles[i], None)
+        for i in range(min(RECENT_POST_LIMIT, len(feed.pub_dates))):
+            try:
+                publish_date = datetime.datetime.strptime(feed.pub_dates[i], '%a, %d %b %Y %H:%M:%S +0800')
+                publish_date = datetime.datetime.strftime(publish_date,'%Y-%m-%d %H:%M:%S')
+                yield Post(publish_date,feed.urls[i],feed.titles[i], None)
+            except Exception as e:
+                print(f'Error parsing date for article {i}: {feed.pub_dates[i]}')
+                print(e)
     else:
+        print(f'Error: received status code {feed.status_code}')
         return []
 
 # 常量定义
