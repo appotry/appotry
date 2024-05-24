@@ -38,7 +38,7 @@
 <!--Trap--:)-->
 <a href="https://github.com/404"><img src="https://blog.17lai.site/medias_webp/line.webp"></a>
 
-<img align="right" src="https://ghstats.17lai.site/?username=appotry&show_icons=true&icon_color=0366d6&text_color=24292e&bg_color=ffffff&hide_title=false" />
+<img align="right" src="https://ghstats.17lai.site/?username=appotry&show_icons=true&icon_color=0366d6&text_color=24292e&bg_color=ffffff&hide_title=false"  width="487" height="195" />
 
 🤗 &nbsp;你好~ 我是 [**appotry**](https://blog.17lai.site)，linux architectures. Linux System Programer, Embeded Linux engineer.
 
@@ -55,7 +55,7 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [**全套自建Hexo博客教程**](https://blog.17lai.site/posts/40300608/) | [**超全博客写作技巧教程**](https://blog.17lai.site/posts/253706ff/) | [**自建全套家庭多媒体中心**](https://blog.17lai.site/posts/9912bd5d/) | [**自建全套电子图书馆教程**](https://blog.17lai.site/posts/dc1c8194/) |
 
-## <a title="My Blog Site" target="_blank" href="https://blog.17lai.site/"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%20(blog)-blog.17lai.site-orange" /></a> 最近博文:  -- 自动获取于 2024-05-25 01:14:24
+## <a title="My Blog Site" target="_blank" href="https://blog.17lai.site/"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%20(blog)-blog.17lai.site-orange" /></a> 最近博文:  -- 自动获取于 2024-05-25 04:21:42
 * 2024-04-24 - [webhook部署Hexo静态博客指南](https://blog.17lai.site/posts/eb731135/            )
 * 2024-04-19 - [写了些浏览器增强脚本](https://blog.17lai.site/posts/8f873c0f/            )
 * 2024-03-19 - [GithubProfile美化与自动获取RSS文章教程](https://blog.17lai.site/posts/a3c81cc3/            )
