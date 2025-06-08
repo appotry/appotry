@@ -55,7 +55,7 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [**全套自建Hexo博客教程**](https://blog.17lai.site/posts/40300608/) | [**超全博客写作技巧教程**](https://blog.17lai.site/posts/253706ff/) | [**自建全套家庭多媒体中心**](https://blog.17lai.site/posts/9912bd5d/) | [**自建全套电子图书馆教程**](https://blog.17lai.site/posts/dc1c8194/) |
 
-## <a title="My Blog Site" target="_blank" href="https://blog.17lai.site/"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%20(blog)-blog.17lai.site-orange" /></a> 最近博文:  -- 自动获取于 2025-06-08 01:15:04
+## <a title="My Blog Site" target="_blank" href="https://blog.17lai.site/"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%20(blog)-blog.17lai.site-orange" /></a> 最近博文:  -- 自动获取于 2025-06-09 01:14:55
 * 2025-04-07 - [易学入门](https://blog.17lai.site/posts/1accbe50/            )
 * 2025-04-06 - [阴历、阳历、阴阳和历的来龙去脉](https://blog.17lai.site/posts/5109c184/            )
 * 2024-12-17 - [windows系统空间清理与速度优化](https://blog.17lai.site/posts/3194c5b3/            )
