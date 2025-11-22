@@ -55,8 +55,19 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [**全套自建Hexo博客教程**](https://blog.17lai.site/posts/40300608/) | [**超全博客写作技巧教程**](https://blog.17lai.site/posts/253706ff/) | [**自建全套家庭多媒体中心**](https://blog.17lai.site/posts/9912bd5d/) | [**自建全套电子图书馆教程**](https://blog.17lai.site/posts/dc1c8194/) |
 
-## <a title="My Blog Site" target="_blank" href="https://blog.17lai.site/"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%20(blog)-blog.17lai.site-orange" /></a> 最近博文:  -- 自动获取于 2025-11-22 19:42:14
-
+## <a title="My Blog Site" target="_blank" href="https://blog.17lai.site/"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%20(blog)-blog.17lai.site-orange" /></a> 最近博文:  -- 自动获取于 2025-11-22 20:18:35
+* 2025-11-22 - [PostgreSQL 实现原理深度剖析：高性能数据库引擎的核心机制](https://blog.17lai.site/posts/a416ccaa/            )
+* 2025-11-22 - [PostgreSQL 使用全面指南：从入门到企业级应用](https://blog.17lai.site/posts/16bffe88/            )
+* 2025-11-22 - [MySQL 使用全面指南：从入门到高级实践](https://blog.17lai.site/posts/622f0f0f/            )
+* 2025-11-22 - [SQLite使用全面教程：轻量级数据库的终极指南](https://blog.17lai.site/posts/847851a6/            )
+* 2025-11-22 - [MySQL命令行使用全面教程：从入门到精通](https://blog.17lai.site/posts/a460ae99/            )
+* 2025-11-22 - [PostgreSQL命令行使用教程：掌握 psql 工具](https://blog.17lai.site/posts/6c6f64dc/            )
+* 2025-11-22 - [SQL命令使用教程：从入门到精通](https://blog.17lai.site/posts/b2f7c564/            )
+* 2025-09-05 - [Zlibrary 图书资源下载与 Calibre 图书管理打造结构化电子图书馆高阶教程](https://blog.17lai.site/posts/7d34898d/            )
+* 2025-09-04 - [IPFS从零开始快速入门教程](https://blog.17lai.site/posts/43241a29/            )
+* 2025-06-23 - [家庭网络优化指南：提升NAT类型，降低游戏延迟、提高下载速度](https://blog.17lai.site/posts/9404dba0/            )
+* 2025-06-22 - [家庭日常家电维护保养总结一本通](https://blog.17lai.site/posts/86ce8478/            )
+* 2025-04-07 - [易学入门](https://blog.17lai.site/posts/1accbe50/            )
 * [更多文章...](https://blog.17lai.site/) 
 
 [![This is me](https://readme-typing-svg.herokuapp.com/?size=30&color=15485F&center=true&vCenter=true&width=1400&lines=%F0%9F%92%A1+%E4%BD%A0%E7%9C%8B%E5%88%B0%E7%9A%84%EF%BC%8C%E6%98%AF%E5%88%AB%E4%BA%BA%E6%83%B3%E8%AE%A9%E4%BD%A0%E7%9C%8B%E5%88%B0%E7%9A%84%EF%BC%9B%E4%BD%A0%E5%90%AC%E5%88%B0%E7%9A%84%EF%BC%8C%E6%98%AF%E5%88%AB%E4%BA%BA%E6%83%B3%E8%AE%A9%E4%BD%A0%E5%90%AC%E5%88%B0%E7%9A%84%EF%BC%9B%E4%BD%A0%E7%9B%B8%E4%BF%A1%E7%9A%84%EF%BC%8C%E6%98%AF%E5%88%AB%E4%BA%BA%E6%83%B3%E8%AE%A9%E4%BD%A0%E7%9B%B8%E4%BF%A1%E7%9A%84%EF%BC%81)](https://git.io/typing-svg)
