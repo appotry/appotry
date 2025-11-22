@@ -112,7 +112,8 @@ def loadPostsByRSS():
         return []
 
 # 常量定义
-POSTS_RSS_URL = 'https://17lai.netlify.app/rss.xml'
+# POSTS_RSS_URL = 'https://17lai.netlify.app/rss.xml'
+POSTS_RSS_URL = 'https://17lai.vercel.app/rss.xml'
 
 # 使用 cloudflare 时，需要使用cloudscraper 或者 selenium 来代替 requests
 # POSTS_RSS_URL = 'https://blog.17lai.site/rss.xml'
@@ -148,3 +149,4 @@ if __name__ == '__main__':
             createdAt = datetime.datetime.strftime(createdAt,'%Y-%m-%d %H:%M:%S')
             content = content.replace(TO_REPLACE_DATE, createdAt)
             fw.write(content)
+
