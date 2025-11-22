@@ -147,9 +147,9 @@ def loadPostsByRSS():
 # --- 配置常量 ---
 
 # 目标 RSS 地址 (Cloudflare 保护)
-POSTS_RSS_URL = 'https://blog.17lai.site/rss.xml' 
+# POSTS_RSS_URL = 'https://blog.17lai.site/rss.xml' 
 # 备用地址 (如果不通可以切换测试)
-# POSTS_RSS_URL = 'https://17lai.vercel.app/rss.xml'
+POSTS_RSS_URL = 'https://17lai.vercel.app/rss.xml'
 
 TO_REPLACE_POSTS = '{{Recent Posts}}'
 TO_REPLACE_DATE = '{{Generated At}}'
