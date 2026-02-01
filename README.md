@@ -55,7 +55,7 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [**全套自建Hexo博客教程**](https://blog.17lai.site/posts/40300608/) | [**超全博客写作技巧教程**](https://blog.17lai.site/posts/253706ff/) | [**自建全套家庭多媒体中心**](https://blog.17lai.site/posts/9912bd5d/) | [**自建全套电子图书馆教程**](https://blog.17lai.site/posts/dc1c8194/) |
 
-## <a title="My Blog Site" target="_blank" href="https://blog.17lai.site/"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%20(blog)-blog.17lai.site-orange" /></a> 最近博文:  -- 自动获取于 2026-02-01 01:22:45
+## <a title="My Blog Site" target="_blank" href="https://blog.17lai.site/"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%20(blog)-blog.17lai.site-orange" /></a> 最近博文:  -- 自动获取于 2026-02-02 01:23:14
 * 2025-12-05 - [穿越牛熊的“金融诺亚方舟”：永久投资组合全解析](https://blog.17lai.site/posts/fbe1b580/            )
 * 2025-11-23 - [内网域名管理+DNS加速+DNS去广告+魔法上网的终极系统](https://blog.17lai.site/posts/b82c9d4e/            )
 * 2025-11-22 - [PostgreSQL 实现原理深度剖析：高性能数据库引擎的核心机制](https://blog.17lai.site/posts/a416ccaa/            )
