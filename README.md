@@ -55,7 +55,10 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [**全套自建Hexo博客教程**](https://blog.17lai.site/posts/40300608/) | [**超全博客写作技巧教程**](https://blog.17lai.site/posts/253706ff/) | [**自建全套家庭多媒体中心**](https://blog.17lai.site/posts/9912bd5d/) | [**自建全套电子图书馆教程**](https://blog.17lai.site/posts/dc1c8194/) |
 
-## <a title="My Blog Site" target="_blank" href="https://blog.17lai.site/"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%20(blog)-blog.17lai.site-orange" /></a> 最近博文:  -- 自动获取于 2026-08-06 02:18:29
+## <a title="My Blog Site" target="_blank" href="https://blog.17lai.site/"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%20(blog)-blog.17lai.site-orange" /></a> 最近博文:  -- 自动获取于 2026-08-08 01:46:12
+* 2026-08-07 - [Hexo主题功能测试-交互视觉篇](https://blog.17lai.site/posts/94f68311/            )
+* 2026-08-07 - [Hexo主题功能测试-布局与页面篇](https://blog.17lai.site/posts/4008905a/            )
+* 2026-08-07 - [Hexo主题功能测试-内容tag篇](https://blog.17lai.site/posts/8a11fe0a/            )
 * 2026-06-23 - [在Linux上运行OpenAI Codex Desktop完整指南](https://blog.17lai.site/posts/fc764afd/            )
 * 2026-06-04 - [如何优雅的给npm包打补丁--以hexo-minify包为例](https://blog.17lai.site/posts/2bcf4ad9/            )
 * 2026-05-19 - [2026 年免费 LLM API 完全指南：13 家提供商 + AI 网关高级玩法 + 本地模型](https://blog.17lai.site/posts/9h3d325f/            )
@@ -63,9 +66,6 @@
 * 2026-03-08 - [AI帝国诞生的未来畅想](https://blog.17lai.site/posts/5a85325f/            )
 * 2026-03-08 - [作为开发者为什么你必须学习开源Linux？](https://blog.17lai.site/posts/f9f3d172/            )
 * 2026-02-26 - [广义相对论：弯曲的时空](https://blog.17lai.site/posts/b1a8aea/            )
-* 2026-02-26 - [狭义相对论：时空的革命](https://blog.17lai.site/posts/eb442223/            )
-* 2025-12-05 - [穿越牛熊的“金融诺亚方舟”：永久投资组合全解析](https://blog.17lai.site/posts/fbe1b580/            )
-* 2025-11-23 - [内网域名管理+DNS加速+DNS去广告+魔法上网的终极系统](https://blog.17lai.site/posts/b82c9d4e/            )
 * [更多文章...](https://blog.17lai.site/) 
 
 [![This is me](https://readme-typing-svg.herokuapp.com/?size=30&color=15485F&center=true&vCenter=true&width=1400&lines=%F0%9F%92%A1+%E4%BD%A0%E7%9C%8B%E5%88%B0%E7%9A%84%EF%BC%8C%E6%98%AF%E5%88%AB%E4%BA%BA%E6%83%B3%E8%AE%A9%E4%BD%A0%E7%9C%8B%E5%88%B0%E7%9A%84%EF%BC%9B%E4%BD%A0%E5%90%AC%E5%88%B0%E7%9A%84%EF%BC%8C%E6%98%AF%E5%88%AB%E4%BA%BA%E6%83%B3%E8%AE%A9%E4%BD%A0%E5%90%AC%E5%88%B0%E7%9A%84%EF%BC%9B%E4%BD%A0%E7%9B%B8%E4%BF%A1%E7%9A%84%EF%BC%8C%E6%98%AF%E5%88%AB%E4%BA%BA%E6%83%B3%E8%AE%A9%E4%BD%A0%E7%9B%B8%E4%BF%A1%E7%9A%84%EF%BC%81)](https://git.io/typing-svg)
