@@ -55,7 +55,7 @@
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [**全套自建Hexo博客教程**](https://blog.17lai.site/posts/40300608/) | [**超全博客写作技巧教程**](https://blog.17lai.site/posts/253706ff/) | [**自建全套家庭多媒体中心**](https://blog.17lai.site/posts/9912bd5d/) | [**自建全套电子图书馆教程**](https://blog.17lai.site/posts/dc1c8194/) |
 
-## <a title="My Blog Site" target="_blank" href="https://blog.17lai.site/"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%20(blog)-blog.17lai.site-orange" /></a> 最近博文:  -- 自动获取于 2026-09-03 03:38:11
+## <a title="My Blog Site" target="_blank" href="https://blog.17lai.site/"><img src="https://img.shields.io/badge/%E5%8D%9A%E5%AE%A2%20(blog)-blog.17lai.site-orange" /></a> 最近博文:  -- 自动获取于 2026-09-04 03:38:24
 * 2026-08-08 - [Hexo主题功能测试-Markdown语法篇](https://blog.17lai.site/posts/878f3193/            )
 * 2026-08-07 - [Hexo主题功能测试-交互视觉篇](https://blog.17lai.site/posts/94f68311/            )
 * 2026-08-07 - [Hexo主题功能测试-内容tag篇](https://blog.17lai.site/posts/8a11fe0a/            )
